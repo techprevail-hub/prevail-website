@@ -108,9 +108,27 @@ export default function AboutPage() {
   }, []);
 
   const teamMembers = [
-    { initials: "FT", name: "Founder Name", title: "CEO & Co-Founder", bio: "Former career services leader who saw firsthand how students and professionals struggle to access quality career support. Now building AI solutions to democratize career success.", gradient: "from-[#38226C] to-[#6A4DFB]" },
-    { initials: "FT", name: "Founder Name", title: "CTO & Co-Founder", bio: "AI engineer with a passion for building scalable platforms. Previously built tools used by millions. Now focused on making career intelligence accessible to everyone.", gradient: "from-[#6A4DFB] to-[#FFB252]" },
-    { initials: "FT", name: "Founder Name", title: "CPO & Co-Founder", bio: "Product leader who experienced the broken career transition process firsthand. Building Prevail to ensure no one else has to navigate their career alone.", gradient: "from-[#FFB252] to-[#38226C]" },
+    { 
+      initials: "VS", 
+      name: "Vinay Surwade", 
+      title: "CEO & Co-Founder", 
+      bio: "Visionary leader with deep expertise in career services and AI product development. Passionate about democratizing career success and building tools that empower professionals at every stage of their journey.",
+      gradient: "from-[#38226C] to-[#6A4DFB]" 
+    },
+    { 
+      initials: "FT", 
+      name: "Founder Name", 
+      title: "CTO & Co-Founder", 
+      bio: "AI engineer with a passion for building scalable platforms. Previously built tools used by millions. Now focused on making career intelligence accessible to everyone.",
+      gradient: "from-[#6A4DFB] to-[#FFB252]" 
+    },
+    { 
+      initials: "FT", 
+      name: "Founder Name", 
+      title: "CPO & Co-Founder", 
+      bio: "Product leader who experienced the broken career transition process firsthand. Building Prevail to ensure no one else has to navigate their career alone.",
+      gradient: "from-[#FFB252] to-[#38226C]" 
+    },
   ];
 
   return (
@@ -432,7 +450,7 @@ export default function AboutPage() {
                   className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#38226C] to-[#6A4DFB] text-white font-bold rounded-2xl hover:-translate-y-1 transition-all duration-300 shadow-lg shadow-[#38226C]/30"
                 >
                   <Mail className="w-4 h-4" />
-                  tech@withprevail.com
+                  hello@withprevail.com
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
