@@ -432,7 +432,7 @@ export default function AboutPage() {
                   className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#38226C] to-[#6A4DFB] text-white font-bold rounded-2xl hover:-translate-y-1 transition-all duration-300 shadow-lg shadow-[#38226C]/30"
                 >
                   <Mail className="w-4 h-4" />
-                  hello@withprevail.com
+                  tech@withprevail.com
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
