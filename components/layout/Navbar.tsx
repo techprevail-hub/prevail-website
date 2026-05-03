@@ -82,7 +82,16 @@ export default function Navbar() {
             </nav>
 
             {/* CTA + hamburger */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
+              {/* Log In button */}
+              <Link
+                href="https://app.withprevail.com/login"
+                className="hidden sm:inline-flex items-center gap-2 px-6 py-3.5 text-base font-bold rounded-2xl transition-all duration-300 hover:-translate-y-0.5 shadow-md text-white bg-gradient-to-r from-[#38226C] to-[#6A4DFB] hover:from-[#2D1A56] hover:to-[#38226C] shadow-[#38226C]/30"
+              >
+                Log In
+              </Link>
+
+              {/* Join the Waitlist button */}
               <Link
                 href="/waitlist"
                 className="hidden sm:inline-flex items-center gap-2.5 px-7 py-3.5 text-base font-bold rounded-2xl transition-all duration-300 hover:-translate-y-0.5 shadow-md text-white bg-gradient-to-r from-[#38226C] to-[#6A4DFB] hover:from-[#2D1A56] hover:to-[#38226C] shadow-[#38226C]/30"
@@ -90,6 +99,7 @@ export default function Navbar() {
                 <Sparkles className="w-4 h-4 text-white/80" />
                 Join the Waitlist
               </Link>
+
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
                 className="lg:hidden p-2.5 rounded-xl transition-colors text-[#1A1A2E] hover:bg-[#38226C]/10"
@@ -159,7 +169,16 @@ export default function Navbar() {
             </Link>
           </nav>
 
-          <div className="p-5 border-t border-white/10">
+          <div className="p-5 border-t border-white/10 flex flex-col gap-3">
+            {/* Mobile Log In button */}
+            <Link
+              href="https://app.withprevail.com/login"
+              className="block w-full text-center py-4 border-2 border-white/20 text-white/80 font-bold rounded-2xl hover:border-white/40 hover:text-white hover:bg-white/5 transition-all text-base"
+            >
+              Log In
+            </Link>
+
+            {/* Mobile Join Waitlist button */}
             <Link
               href="/waitlist"
               className="block w-full text-center py-4 bg-gradient-to-r from-[#B8710E] to-[#9E600C] text-white font-bold rounded-2xl hover:from-[#C98114] hover:to-[#B8710E] transition-all shadow-md shadow-[#B8710E]/40 text-base"
